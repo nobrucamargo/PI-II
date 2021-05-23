@@ -17,8 +17,8 @@ Grandes empresas procuram uma fatia no lucro desse emergente seguimento da engen
 como a Engenharia Civil, **Eletrônica**, Elétrica, Computacional e muitas outras áreas. Quando unido todas essas áreas, espera-se construir um projeto de _Domótica_ 
 complexo que envolva desde a construção da casa, até a fiação elétrica, desenvolvimento de dispositivos eletrônicos integrados e outros, mas também é possível 
 trabalhar em sistemas independentes conectados via IOT, de fácil instalação que não envolvam a construção da casa, projeto elétrico e hardware específicos, como 
-por exemplo, o famoso Amazon Alexa <https://developer.amazon.com/pt-BR/alexa>, ou ainda o serviço do google 
-conhecido como Google Home <https://support.google.com/assistant/answer/9155535?hl=pt-BR>.
+por exemplo, o famoso [Amazon Alexa](https://developer.amazon.com/pt-BR/alexa), ou ainda o serviço do google 
+conhecido como [Google Home](https://support.google.com/assistant/answer/9155535?hl=pt-BR).
 
 ### 2.1 O que pode ser feito?
 
