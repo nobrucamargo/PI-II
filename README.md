@@ -3,7 +3,7 @@
 ## 1. Automação
 
 A automação pode ser descrita como o processo de aplicação de projetos engenhosos na prática, mais tarde chamado de engenharia, com o intuito de facilitar algum 
-processo mecânico. Um exemplo é a roda d'água, que aprimorou o processo de moagem a muito tempo atrás, ou o moinho de vento. Uma roda d'água na [**figura 1**](http://luciahlopezpoesias.blogspot.com/2012/11/roda-dagua.html) e um moinho na [**figura 2**](http://metalurgiadasletras.blogspot.com/2011/08/moinhos-de-vento.html).
+processo mecânico. Um exemplo é a roda d'água, que aprimorou o processo de moagem a muito tempo atrás, ou o moinho de vento. Uma roda d'água na [**Figura 1**](http://luciahlopezpoesias.blogspot.com/2012/11/roda-dagua.html) e um moinho na [**Figura 2**](http://metalurgiadasletras.blogspot.com/2011/08/moinhos-de-vento.html).
 
 ![Roda d'água](http://1.bp.blogspot.com/-AqrEZ9bzias/UK0vLwkB0SI/AAAAAAAABzE/UJrMJZpObAI/s1600/rodaagua.jpg) ![Moinho de vento](https://img.freepik.com/fotos-gratis/moinhos-de-vento_2872372.jpg?size=338&ext=jpg)
 
@@ -25,6 +25,15 @@ conhecido como [Google Home](https://support.google.com/assistant/answer/9155535
 Na **Domótica**, praticamente tudo que se possa imaginar, pode ser feito. Empresas como a Amazon e o Google trabalham em sistemas de IOT que controlam lâmpadas, 
 TV's, caixas de som, e _LED_'s(ight-emitting diode), mas na verdade, é possível ir muito além. É possível projetar sistemas que controlem portas, janelas, fornos, irrigação de jardins, 
 piscinas, ventiladores, sistemas de aquecimento e muito mais. Tudo isso depende das áreas do conhecimento envolvidas, da complexidade do projeto e da imaginação
-dos projetistas-engenheiros. Simbolizando o controle de uma casa pelo celular, temos a [**figura 3**](https://comparaiso.es/domotica), e a ideia de um projeto complexo de Domótica na [**figura 4**](https://www.nabuurselektro.nl/diensten/domotica---gebouwbeheer--comfort-systeem).
+dos projetistas-engenheiros. Simbolizando o controle de uma casa pelo celular, temos a [**Figura 3**](https://comparaiso.es/domotica), e a ideia de um projeto complexo de Domótica na [**Figura 4**](https://www.nabuurselektro.nl/diensten/domotica---gebouwbeheer--comfort-systeem).
 
 ![Domótica1](https://comparaiso.es/sites/default/files/styles/_default/public/images/domotica-200x300.png.webp) ![Domótica2](https://www.nabuurselektro.nl/applications/weemen/nabuurs/files/Afbeeldingen/Diensten/domotica2.gif)
+
+## 3 REFERÊNCIAS
+
+1. LOPES, Luciana. **RODA D'ÁGUA**. Paraná. 2012. Disponível em: <http://luciahlopezpoesias.blogspot.com/2012/11/roda-dagua.html>
+2. ZUEIRA, Pintor. **Moinhos de vento**. Minas Gerais. 2011. Disponível em: <http://metalurgiadasletras.blogspot.com/2011/08/moinhos-de-vento.html>
+3. AMAZON. **Alexa Official Site: What is Alexa?**. 2021. Disponível em: <https://developer.amazon.com/pt-BR/alexa>
+4. GOOGLE. **Compartilhar uma casa e dispositivos no app Google Home**. 2021. Disponível em: <https://support.google.com/assistant/answer/9155535?hl=pt-BR>
+5. COMPARAISO. **Qué es la domótica: aplicaciones y ejemplos**. 2021. Disponível em: <https://comparaiso.es/domotica>
+6. ELECTRO, Nabuurs. **DOMOTICA**. 2021. Disponível em: <https://www.nabuurselektro.nl/diensten/domotica---gebouwbeheer--comfort-systeem>
