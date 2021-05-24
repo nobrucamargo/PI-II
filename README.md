@@ -37,3 +37,4 @@ dos projetistas-engenheiros. Simbolizando o controle de uma casa pelo celular, t
 4. GOOGLE. **Compartilhar uma casa e dispositivos no app Google Home**. 2021. Disponível em: <https://support.google.com/assistant/answer/9155535?hl=pt-BR>
 5. COMPARAISO. **Qué es la domótica: aplicaciones y ejemplos**. 2021. Disponível em: <https://comparaiso.es/domotica>
 6. ELECTRO, Nabuurs. **DOMOTICA**. 2021. Disponível em: <https://www.nabuurselektro.nl/diensten/domotica---gebouwbeheer--comfort-systeem>
+7. TEZA, Vanderlei R. Floranópolis **VANDERLEI RABELO TEZAALGUNS ASPECTOS SOBRE A AUTOMAÇÃO RESIDENCIAL - DOMÓTICA**. 
