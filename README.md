@@ -1,6 +1,12 @@
 # DOMÓTICA OU AUTOMAÇÃO RESIDENCIAL
 
-## 1. Automação
+## 1. Introdução
+
+Este texto introdutório tem o objetivo de contexttualizar e explicar tópicos sobre o tema **Domótica**, que é o tema de projeto a se desenvolver nesse repositório. 
+
+É discutido a história e a evolução da domótica em torno do ser humano, assim como a atual situaçãoa. A acessibilidade, a importância e os níveis de complexidade que esses tipos de produtos, ou projetos, podem chegar, também são abordados.
+
+## 2. Automação
 
 A automação pode ser descrita como o processo de aplicação de projetos engenhosos na prática, mais tarde chamado de engenharia, com o intuito de facilitar algum 
 processo mecânico. Um exemplo é a roda d'água, que aprimorou o processo de moagem a muito tempo atrás, ou o moinho de vento. Uma roda d'água na [**Figura 1**](http://luciahlopezpoesias.blogspot.com/2012/11/roda-dagua.html) e um moinho na [**Figura 2**](http://metalurgiadasletras.blogspot.com/2011/08/moinhos-de-vento.html).
@@ -12,7 +18,7 @@ Tem-se então, que a automação é intrínseca a evolução e ao conhecimento h
 processos em diversos seguimentos, como o manufatureiro, comercial o residencial. Por necessidade de maiores lucros, a automação industrial foi a maior desenvolvida, depois a comercial e, então, a residencial. Já se tem um amplo desenvolvimento na automação residencial, chandomando-se de **Domótica**, 
 mas ainda bastante restrito a pessoas de maiores status sociais e desenvolvimento econômico devido a emergência recente do seguimento.
 
-## 2. Domótica
+## 3. Domótica
 
 Grandes empresas procuram uma fatia no lucro desse emergente seguimento da engenharia, que pode unir várias áreas do conhecimento em prol do projeto de aplicação, 
 como a Engenharia Civil, **Eletrônica**, Elétrica, Computacional e muitas outras áreas. Quando unido todas essas áreas, espera-se construir um projeto de _Domótica_ 
@@ -21,7 +27,7 @@ trabalhar em sistemas independentes conectados via IOT, de fácil instalação q
 por exemplo, o famoso [Amazon Alexa](https://developer.amazon.com/pt-BR/alexa), ou ainda o serviço do google 
 conhecido como [Google Home](https://support.google.com/assistant/answer/9155535?hl=pt-BR).
 
-### 2.1 O que pode ser feito?
+### 3.1 O que pode ser feito?
 
 Na **Domótica**, praticamente tudo que se possa imaginar, pode ser feito. Empresas como a Amazon e o Google trabalham em sistemas de IOT que controlam lâmpadas, 
 TV's, caixas de som, e _LED_'s(ight-emitting diode), mas na verdade, é possível ir muito além. É possível projetar sistemas que controlem portas, janelas, fornos, irrigação de jardins, 
@@ -31,7 +37,7 @@ dos projetistas-engenheiros. Simbolizando o controle de uma casa pelo celular, t
 >![Domótica1](https://comparaiso.es/sites/default/files/styles/_default/public/images/domotica-200x300.png.webp) **FIGURA 3.**
 >![Domótica2](https://www.nabuurselektro.nl/applications/weemen/nabuurs/files/Afbeeldingen/Diensten/domotica2.gif) **FIGURA 4.**
 
-## 3 REFERÊNCIAS
+## 4 REFERÊNCIAS
 
 AMAZON. **Alexa Official Site: What is Alexa?**. 2021. Disponível em: <https://developer.amazon.com/pt-BR/alexa>
 
