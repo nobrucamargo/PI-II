@@ -37,7 +37,13 @@ dos projetistas-engenheiros. Simbolizando o controle de uma casa pelo celular, t
 >![Domótica1](https://comparaiso.es/sites/default/files/styles/_default/public/images/domotica-200x300.png.webp) **FIGURA 3.**
 >![Domótica2](https://www.nabuurselektro.nl/applications/weemen/nabuurs/files/Afbeeldingen/Diensten/domotica2.gif) **FIGURA 4.**
 
-## 4 REFERÊNCIAS
+## 4 Conclusão
+
+Fica evidente então, que a domótica é um tema de projeto que depende muito da criatividade do projetista, ou dos requisitos de projeto pré estabelecidos.
+
+É constatado também, que a acessibilidade ainda é muito baixa, mas com previsão de aumento, já que empresas de tecnologia estão de olho nas possibilidades de lucro sobre esse tema. É notório ainda, que as funções e nível de aplicabilidade da domótica depende das áreas do conhecimento envolvidaa e, consequêntemente, da complexidade do projeto.
+
+## 5 REFERÊNCIAS
 
 AMAZON. **Alexa Official Site: What is Alexa?**. 2021. Disponível em: <https://developer.amazon.com/pt-BR/alexa>
 
