@@ -1,5 +1,5 @@
-#BEM VINDO!
-##Repositório destinado para fins de aprendizado e desenvolvimento do Projeto Integrador II
+# BEM VINDO!
+## Repositório destinado para fins de aprendizado e desenvolvimento do Projeto Integrador II
 
 Veja as etapas clicando nos tópicos abaixo:
 
