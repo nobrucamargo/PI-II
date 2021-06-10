@@ -1,5 +1,6 @@
 # BEM VINDO!
 ## Repositório destinado para fins de aprendizado e desenvolvimento do Projeto Integrador II
+### Tema: *Domótica*
 
 Veja as etapas clicando nos tópicos abaixo:
 
