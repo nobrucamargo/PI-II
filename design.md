@@ -6,10 +6,11 @@ Para o projeto em questão, planeja-se usar o seguinte hardware:
 > 1. Um arduíno UNO;
 > 2. Uma fonte de alimentação 5V;
 > 3. Cinco LED's;
-> 4. Uma matriz de LED's;
-> 5. Um sensor de gás;
-> 6. Um sensor de presença;
-> 7. Um servo motor.
+> 4. Um resistor de 22 ohm;
+> 5. Uma matriz de LED's;
+> 6. Um sensor de gás;
+> 7. Um sensor de presença;
+> 8. Um servo motor.
 
 
 Agora, veja abaixo uma abstração geral do design do projeto:
