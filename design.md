@@ -13,4 +13,4 @@ Veja abaixo uma abstração geral do design do projeto:
 >- ![matriz](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/matriz.png)A matriz de LED's representa a fita de LED da sala de estar e receberá 3 sinais digitais de controle;
 >- ![gas](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/gas.png)O sensor de gás envia um sinal digital e um analógico assim que detecta vazamento de gás;
 >- ![presenca](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/presenca.png)O sensor de presença envia um sinal digital assim que detecta algum tipo de movimentação;
->- As baterias representam uma possível fonte auxiliar de alimentação;
+>- ![fonte](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/fonte.png)As baterias representam uma possível fonte auxiliar de alimentação;
