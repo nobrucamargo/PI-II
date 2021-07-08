@@ -1,7 +1,18 @@
 # *DESIGN* do projeto
 
 Nessa etapa do projeto, foi planejado a organização e as conexões em geral do hardware, assim como tabelado o material necessário.
-Veja abaixo uma abstração geral do design do projeto:
+Para o projeto em questão, planeja-se usar o seguinte hardware:
+
+> 1. Um arduíno UNO;
+> 2. Uma fonte de alimentação 5V;
+> 3. Cinco LED's;
+> 4. Uma matriz de LED's;
+> 5. Um sensor de gás;
+> 6. Um sensor de presença;
+> 7. Um servo motor.
+
+
+Agora, veja abaixo uma abstração geral do design do projeto:
 > ![design](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/design.png)
 > >*Descrição:* Os fios vermelhos e pretos representam a alimentação de 5V e terra, respectivamente, enquanto os fios amarelos e verde representam os sinais 
 > >digitais e analógicos, respectivamente, de envio e recebimento. 
