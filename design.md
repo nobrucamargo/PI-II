@@ -14,7 +14,7 @@ Sensor de gás MQ-2| 1
 Sensor de preseça PIR | 1
 Servo motor     | 1
 
-Agora, veja abaixo uma abstração geral do design do projeto:
+Agora, vejamos abaixo uma abstração geral do design do projeto:
  ![design](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/design.png)
 > >*Descrição:* Os fios vermelhos e pretos representam a alimentação de 5V e terra, respectivamente, enquanto os fios amarelos e verde representam os sinais 
 > >digitais e analógicos(I/O), respectivamente. 
