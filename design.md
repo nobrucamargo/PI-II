@@ -3,20 +3,21 @@
 Nessa etapa do projeto, foi planejado a organização e as conexões em geral do hardware, assim como tabelado o material necessário.
 Para o projeto em questão, planeja-se usar o seguinte hardware:
 
-> 1. Um arduíno UNO;
-> 2. Uma fonte de alimentação 5V;
-> 3. Cinco LED's;
-> 4. Um resistor de 22 ohm;
-> 5. Uma matriz de LED's;
-> 6. Um sensor de gás;
-> 7. Um sensor de presença;
-> 8. Um servo motor.
-
+**HARDWARE**    | **UNIDADES**
+:------------:  | :------------:
+Arduíno MEGA    | 1
+Fonte 12 Vcc    | 1
+LED             | 5
+Resistor 150 ohm| 5
+Matriz de LED's 8x8 com MAX7219| 1
+Sensor de gás MQ-2| 1
+Sensor de preseça PIR | 1
+Servo motor     | 1
 
 Agora, veja abaixo uma abstração geral do design do projeto:
-> ![design](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/design.png)
+ ![design](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/design.png)
 > >*Descrição:* Os fios vermelhos e pretos representam a alimentação de 5V e terra, respectivamente, enquanto os fios amarelos e verde representam os sinais 
-> >digitais e analógicos, respectivamente, de envio e recebimento. 
+> >digitais e analógicos(I/O), respectivamente. 
 > 
 >- ![arduíno](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/arduino.png)O Arduíno é a plataforma de controle escolhida, que alimentará, receberá e enviará sinais digitais e analógico para os shields.
 >- ![leds](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/led.png)Os LED's vermelhos representam a iluminação do apartamento, que receberá sinais digitais de comando para acender ou apagar. A corrente é limitada por 
