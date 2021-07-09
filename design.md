@@ -20,8 +20,7 @@ Agora, vejamos abaixo uma abstração geral do design do projeto:
 > >digitais e analógicos(I/O), respectivamente. 
 > 
 >- ![arduíno](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/arduino.png)O Arduíno é a plataforma de controle escolhida, que alimentará, receberá e enviará sinais digitais e analógico para os shields.
->- ![leds](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/led.png)Os LED's vermelhos representam a iluminação do apartamento, que receberá sinais digitais de comando para acender ou apagar. A corrente é limitada por 
-> um resistor;
+>- ![leds](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/led.png)Os LED's brancos representam a iluminação do apartamento, que receberá sinais digitais de comando para acender ou apagar. A corrente é limitada por um resistor de 150ohm;
 >- ![motor](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/motor.png)O Servomotor receberá um sinal digital para abrir ou fechar a persiana do quarto;
 >- ![matriz](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/matriz.png)A matriz de LED's representa a fita de LED da sala de estar e receberá 3 sinais digitais de controle;
 >- ![gas](https://github.com/nobrucamargo/PI-II/blob/main/Imagens/gas.png)O sensor de gás envia um sinal digital e um analógico assim que detecta vazamento de gás;
