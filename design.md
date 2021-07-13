@@ -8,7 +8,7 @@ Para o projeto em questão, planeja-se usar o seguinte hardware:
 Arduíno MEGA    | 1
 Fonte 12 Vcc    | 1
 LED             | 5
-Resistor 150 ohm| 5
+Resistor 220 ohm| 5
 Matriz de LED's 8x8 com MAX7219| 1
 Sensor de gás MQ-2| 1
 Sensor de preseça PIR | 1
