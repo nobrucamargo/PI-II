@@ -220,7 +220,7 @@ void comandos_serial() {
   }
 }
 
-/*fita_leds: gerencia a fita de leds, conforme interruptor_led e demais comandos;
+/*fita_leds: gerencia a fita de leds, conforme interruptor_led e demais comandos;*/
 void fita_leds(){
   
   unsigned long tempo_atual = millis();
