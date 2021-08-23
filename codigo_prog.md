@@ -23,7 +23,7 @@ unsigned long tempo_tarefa_1 = 0, tempo_gas=0, tempo_led=0, tempo_servo=0;
 bool interruptor[5]={false, false, false, false, false};        //Vetor de interruptores do apartamento;
 bool interruptor_led=false, aumenta_intensidade=false, diminui_intensidade=false;
 bool abrir=false, fechar=false;
-int intensidade_padrao=4, modo=1; //intensidade padrão da fita de led, modo de parão para a matriz de leds piscar;
+int intensidade_padrao=4, modo=1; //intensidade padrão da fita de led, modo parão para a matriz de leds não piscar;
 
 LedControl matrix=LedControl(25, 27, 29, 1); //Pino23: DIN;
                                              //Pino25: CLK;
