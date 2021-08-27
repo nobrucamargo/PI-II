@@ -30,8 +30,9 @@ Agora, vejamos abaixo uma abstração geral do design do projeto:
 
 ## 2. Software
 Estudado o funcionamento dos shields do Arduíno(Hardware), parte-se então, para os testes de funcionamento de cada shield. Com o intuito de maximizar a produtividade e minimizar o tempo, os shields foram testados a medida que foram programados no código central do projeto, por tanto, aqui está adiantado algumas partes do programa final, constante na próxima etapa, a implementação. Os pinos foram definidos de forma a manterem concordância com os pinos usados no design do hardware.
-> Clique [aqui](https://github.com/nobrucamargo/PI-II/blob/main/codigo_prog.md) para visualização completa do código;
+> Clique [*aqui*](https://github.com/nobrucamargo/PI-II/blob/main/codigo_prog.md) para visualização completa do código;
 ### 2.1 Sensor de gás
+O sensor de gás funciona como o esperado, mas deve-se atenar ao fato de o sensor mandar sinal baixo (LOW) caso detecte gás, e alto(HIGH) caso não detecte gás. A função int gas() descrita abaixo foi utilizada como teste e será útil para uma função que bloqueie o funcionamento de qualquer dispositivo que possa provocar uma explosão com faíscas. Para melhor entendimento do objetivo dessa função, veja o resto das funções e depois, analise-as todas juntas no código completo.
 ~~~C++
 ...
 //Definindo as portas de I/O do arduíno
@@ -49,8 +50,9 @@ int gas(){
 }
 ...
 ~~~
-> O sensor de gás funciona como o esperado, e essa função será útil para uma função que bloqueie o funcionamento de qualquer dispositivo que possa provocar uma explosão com faíscas. Para melhor entendimento do objetivo dessa função, veja o resto das funções e depois, analise-as todas juntas no código completo.
-### 2.2 Iluminação
+### 2.2 Iluminação e sensor de presença
+Os leds e o sensor de presença funcionaram como esperado, no entanto, constatou-se que o brilho dos led's estavam fracos, portanto, recomenda-se a alteração dos resistores para de menor resistência, como resistores de 390 ohm.
+Os leds e o sensor de presença foram testados conforme o código da função void lampadas() descrita abaixo, onde um vetor foi criado para simular os interruptores.
 ~~~C++
 ...
 //Definindo as portas de I/O do arduíno
@@ -122,8 +124,8 @@ void lampadas() {
   }
 }
 ~~~
-> Os led's e o sensor de presença funcionam como esperado, no entanto, constatou-se que o brilho dos led's estavam fracos, portanto, recomenda-se a alteração dos resistores para de menor resistência, como resistores de 330 ohm.
 ## 2.3 Matriz de leds(fita de leds)
+A matriz de leds funcionou como esperado. A função descrita abaixo controla o estado e a intensidade de um "L" mostrado no display da matriz, simulando a fita de leds descrita na maquete eletrônica.
 ~~~C++
 ...
 #include "LedControl.h"     //para controlar a matriz de leds(fita de leds);
@@ -170,8 +172,8 @@ void fita_leds(){
   }
 }
 ~~~
-> A matriz de leds funcionou como esperado. Essa função controla o estado e a intensidade de um "L" mostrado no display da matriz.
 ## 2.4 Servo motor
+O servo motor não funcionou como esperado. Foi necessário um bom estudo de caso sobre o dispositivo, através de testes e pesquisa do funcionamento, afim de aplicar corretamente o seu uso. Usando o código descrito abaixo, foi testado diversos ângulos diferentes, até ser encontrado os ângulos corretos a serem usados.
 ~~~C++
 ...
 #define SERVO 23
@@ -193,15 +195,14 @@ void servo(){
     
     /*Abre/fecha janela conforme sinal de entrada*/
     if(abrir==true){
-      motor.write(90, 30); //Gira o motor em 90° a uma velocidade de 60.
+      motor.write(170, 30); //Gira o motor em 90° a uma velocidade de 60.
                            //velocidade 1 é a mínima, 255 é a máxima e 0 é a padrão.
       abrir=false;
     }
     if(fechar==true){      //Análogo ao anterior, só que agora para fechar a janela
-      motor.write(-90, 60);
+      motor.write(0, 60);
       fechar=false;
     }
   }
 }
 ~~~
-> O servo motor não funcionou como esperado, foi necessário um bom estudo de caso sobre o dispositivo, através de testes e pesquisa de funcionamento afim de aplicar corretamente o seu uso.
