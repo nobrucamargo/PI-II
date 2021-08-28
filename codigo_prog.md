@@ -72,11 +72,9 @@ void lock(){
 
     int i=0; //Contador para envio sucessivo de alertas;
     while (gas()){
-    
-      if (i==1){
-        Serial.print("ALERTA!! GÁS DETECTADO!! ");
-        i=0;
-      }
+   
+    Serial.print("ALERTA!! GÁS DETECTADO!! ");
+
     //Mantém tudo parado, em nível lógico baixo;  
     digitalWrite(LED_ROOM, LOW);
     digitalWrite(LED_KITCHEN, LOW);
@@ -86,7 +84,6 @@ void lock(){
     matrix.clearDisplay(0);
     motor.stop();
     delay(5000); //Delay de 5s para envio de alerta caso ainda haja sinal de gás;
-    i++;
     }
   }
 }
