@@ -17,7 +17,7 @@ Para a instalção do hardware, foi feito uma pequena área suspensa debaixo da 
 Note que algumas modificaçõe foram feitas apartir da planta da maquete. Foi criado uma mesa entre a sala e a cozinha, e foi criado uma janela no corredor, tudo com o objetivo de tornar melhor a vizualização da implementação do sistema.
 
 ## 2. Código final
-Vamos tratar agora da lógica de como o código final funciona(clique [***aqui***](https://github.com/nobrucamargo/PI-II/blob/main/codigo_prog.md) para ver o código final) e como foi unificado todos os códigos de teste descritos na aba [***DESIGN***](https://github.com/nobrucamargo/PI-II/blob/main/design.md).
+Vamos tratar agora da lógica de como o código final funciona(clique [***aqui***](https://github.com/nobrucamargo/PI-II/blob/main/codigo_prog.md) para ver o código final) e como foi unificado todos os códigos de teste descritos na aba [***DESIGN***](https://github.com/nobrucamargo/PI-II/blob/main/design.md). Juntamente com a explicação da lógica, está contido alguns traços do código final, afim de contextualizar o leitor, mas não é extritamente necessário a leitura e interpretação desses traços.
 ### 2.1 Junção dos códigos testes
 Definido as portas de I/O do Arduíno e incluído as bibliotecas necessárias, foi utilizado uma lógica de programação onde as funções são executadas periódicamente dentro da função loop(), mas com o controle de um temporizador nas funções necessárias. Basicamente, as funções apenas checam os sensores e comandos seriail buscando alguma interação para habilitar, ou não, algum comando ou tarefa, portanto, nenhuma função fica esperando uma interação para executar algo, ao invés disso, há uma checagem frequênte da existência de interações. Concluindo, nenhuma função trava a outra, visto que nenhuma função fica no aguardo até que algo aconteça, exceto pela função lock(), que será explicada mais adinte. Veja abaixo um trexo do [***código final***](https://github.com/nobrucamargo/PI-II/blob/main/codigo_prog.md), onde a temporização de uma função é descrita:
 ~~~C++
@@ -70,5 +70,69 @@ void lock(){
 }
 ~~~
 ### 2.3 função comandos_serial()
+Na aba [***Design***](https://github.com/nobrucamargo/PI-II/blob/main/design.md) foi explicado o funcionamento da função lampadas(), mas para a integração dessa função ao código final, assim como a integração das demais funções que necessitam de comandos seriais, foi criado a função comandos_serial(). A função comados_serial() apenas gerencia os comandos seriais, simulando interruptores para as lâmpadas e para a fita deleds, e tamém simulando pushbuttons para o controle da intensidade do brilho da fita de leds e a abertura ou fechamento das persianas. Veja abaixo a função comandos_serial():
+~~~C++
+/* comandos_serial: gerencia os comandos da porta serial */
+void comandos_serial() {
 
+  /* Caso tenha recebido algum dado do PC */
+  if (Serial.available()) {
+    char dado_recebido = Serial.read();
+
+  /*gerencia comandos das lâmpdas, fita de leds e servo motor*/
+    switch (dado_recebido){
+      case 'r':
+         if (interruptor[0] == true)
+          interruptor[0] = false;
+         else
+          interruptor[0] = true;
+         break;
+      case 'k':
+         if (interruptor[1] == true)
+          interruptor[1] = false;
+         else
+          interruptor[1] = true;
+         break;
+      case 'l':
+         if (interruptor[2] == true)
+          interruptor[2] = false;
+         else
+          interruptor[2] = true;
+         break;
+      case 'w':
+        if (interruptor[3] == true)
+          interruptor[3] = false;
+        else
+          interruptor[3] = true;
+         break;
+      case 'h':
+        if (interruptor[4] == true)
+          interruptor[4] = false;
+        else
+          interruptor[4] = true;
+         break;
+      case 'f':
+         if (interruptor_led==true)
+          interruptor_led=false;
+         else 
+          interruptor_led=true;
+         break;
+      case '+':
+         aumenta_intensidade=true;
+         break;
+      case '-':
+         diminui_intensidade=true;
+         break;
+      case 'o':
+         abrir=true; 
+         break;
+      case 'c':
+         fechar=true;
+         break;
+      default: 
+         break;
+    }   
+  }
+}
+~~~
 
