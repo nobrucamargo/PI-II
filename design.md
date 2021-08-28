@@ -32,7 +32,7 @@ Agora, vejamos abaixo uma abstração geral do design do projeto:
 Estudado o funcionamento dos shields do Arduíno(Hardware), parte-se então, para os testes de funcionamento de cada shield. Com o intuito de maximizar a produtividade e minimizar o tempo, os shields foram testados a medida que foram programados no código central do projeto, por tanto, aqui está adiantado algumas partes do programa final, constante na próxima etapa, a implementação. Os pinos foram definidos de forma a manterem concordância com os pinos usados no design do hardware.
 > Clique [*aqui*](https://github.com/nobrucamargo/PI-II/blob/main/codigo_prog.md) para visualização completa do código;
 ### 2.1 Sensor de gás
-O sensor de gás funciona como o esperado, mas deve-se atenar ao fato de o sensor mandar sinal baixo (LOW) caso detecte gás, e alto(HIGH) caso não detecte gás. A função int gas() descrita abaixo foi utilizada como teste e será útil para uma função que bloqueie o funcionamento de qualquer dispositivo que possa provocar uma explosão com faíscas. Para melhor entendimento do objetivo dessa função, veja o resto das funções e depois, analise-as todas juntas no código completo.
+O sensor de gás funcionou como o esperado, mas deve-se atenar ao fato de o sensor mandar sinal baixo (LOW) caso detecte gás, e alto(HIGH) caso não detecte gás. A função int gas() descrita abaixo foi utilizada como teste e será útil para uma função que bloqueie o funcionamento de qualquer dispositivo que possa provocar uma explosão com faíscas. Para melhor entendimento do objetivo dessa função, veja o resto das funções e depois, analise-as todas juntas no código completo.
 ~~~C++
 ...
 //Definindo as portas de I/O do arduíno
