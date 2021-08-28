@@ -1,6 +1,5 @@
-# **CÓDIGO DE PROJETO** 
+# **CÓDIGO DO PROJETO** 
 Aqui se encontra o código criado para a implementação do projeto, completo e detalhado por partes.
-## 1. Código completo:
 ```C++
 //Definindo as portas de I/O do arduíno
 #define LED_ROOM 41
