@@ -4,7 +4,7 @@
 ### Tema: *Domótica*
 
 Veja uma introdução ao tema e as etapas CDIO(Conceive - Design - Implement - Operate) clicando nos tópicos abaixo:
-> Obs: É recomendado que não seja pulado nenhuma etapa para a compreensão total do projeto.
+> Obs: É recomendado que não seja pulado a leitura de nenhuma etapa para a compreensão total do projeto.
 
 1. **[Introdução:](https://github.com/nobrucamargo/PI-II/blob/3307cbae157147e6776728f8937acc83deac442c/INTRODUCAO.md)** Aqui você encontrará uma contextualização abrangendo a história, o desenvolvimento e a atual situação da domótica;
 3. **[Concepção:](https://github.com/nobrucamargo/PI-II/blob/906a1789c1530bbc11ab9ce955fb57f73eceb27f/concepcao.md)** Veja os requisitos, planejamento e planta do projeto.
