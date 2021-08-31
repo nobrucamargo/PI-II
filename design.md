@@ -35,14 +35,6 @@ Estudado o funcionamento dos shields do Arduíno(Hardware), parte-se então, par
 O sensor de gás funcionou como o esperado, mas deve-se atenar ao fato de o sensor mandar sinal baixo (LOW) caso detecte gás, e alto(HIGH) caso não detecte gás. A função int gas() descrita abaixo foi utilizada como teste e será útil para uma função que bloqueie o funcionamento de qualquer dispositivo que possa provocar uma explosão com faíscas. Para melhor entendimento do objetivo dessa função, veja o resto das funções e depois, analise-as todas juntas no código completo.
 ~~~C++
 ...
-//Definindo as portas de I/O do arduíno
-#define FUMACA 53
-...
-void setup() {
-  /* Configuração dos pinos como entrada ou saída */
-  pinMode(FUMACA, INPUT);
-  }
-  
   /*gas: Verifica se tem gás ou não*/
 int gas(){
   if (digitalRead(FUMACA)==HIGH) return 0;
@@ -55,27 +47,8 @@ Os leds e o sensor de presença funcionaram como esperado, no entanto, constatou
 Os leds e o sensor de presença foram testados conforme o código da função void lampadas() descrita abaixo, onde um vetor foi criado para simular os interruptores.
 ~~~C++
 ...
-//Definindo as portas de I/O do arduíno
-#define LED_ROOM 41
-#define LED_KITCHEN 43
-#define LED_LIVING_ROOM 45
-#define LED_WC 47
-#define LED_HALL 49
-#define PRESENCA 51 
-...
 bool interruptor[5]={false, false, false, false, false};        //Vetor de interruptores do apartamento;
 ...
-void setup() {
-
-  /* Configuração dos pinos como entrada ou saída */
-  pinMode(LED_ROOM, OUTPUT);
-  pinMode(LED_KITCHEN, OUTPUT);
-  pinMode(LED_LIVING_ROOM, OUTPUT);
-  pinMode(LED_WC, OUTPUT);
-  pinMode(LED_HALL, OUTPUT);
-  pinMode(PRESENCA, INPUT); //Vai receber o sinal de presença
-  }
-  
 /* lampadas: liga/desliga lâmpadas com base nos interruptores/presença*/
 void lampadas() {
 
@@ -131,7 +104,7 @@ A matriz de leds funcionou como esperado. A função descrita abaixo controla o 
 #include "LedControl.h"     //para controlar a matriz de leds(fita de leds);
 
 bool interruptor_led=false, aumenta_intensidade=false, diminui_intensidade=false;
-int intensidade_padrao=4, modo=1; //intensidade padrão da fita de led, modo parão para a matriz de leds não piscar;
+int intensidade_padrao=4;
 ...
 void setup() {
 
@@ -176,10 +149,7 @@ void fita_leds(){
 O servo motor não funcionou como esperado. Foi necessário um bom estudo de caso sobre o dispositivo, através de testes e pesquisa do funcionamento, afim de aplicar corretamente o seu uso. Usando o código descrito abaixo, foi testado diversos ângulos diferentes, até ser encontrado os ângulos corretos a serem usados.
 ~~~C++
 ...
-#define SERVO 23
 #include <VarSpeedServo.h>  //para controlar o servo motor com velocidade variável;
-...
-bool abrir=false, fechar=false;
 ...
 VarSpeedServo motor;    //Criando objeto para o servo motor;...
 void setup() {
